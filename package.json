@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "built":"tsc",
-    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+    "built": "tsc",
+    "start": "npx tsc && node dist/app.js"
   },
   "type": "module",
   "author": "",
@@ -14,6 +14,7 @@
   "keywords": [],
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.1.5"
   },

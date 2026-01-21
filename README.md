@@ -11,4 +11,4 @@
                 update the existing todos
                 delete the todo
     e.Created Router for all the APIs 
-    f.
+    f.Created server and connected my app to the database.
